@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.dist-info/
+build/
+dist/
+
+# Virtual envs (only if inside repo)
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local env / secrets
+.env
+.env.*
+*.local
+
+# App artifacts
+*.zip
+samples/
+exports/
